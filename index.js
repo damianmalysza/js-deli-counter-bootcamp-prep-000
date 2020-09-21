@@ -20,7 +20,9 @@ function currentLine(line){
   } else {
     var crntLine="The line is currently: "
     for (let i=0;i<line.length;i++){
+      while (i)
       crntLine+=`${i+1}. ${line[i]}, `
+      
     }
   }
   return crntLine
