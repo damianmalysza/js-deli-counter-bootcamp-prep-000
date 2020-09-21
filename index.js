@@ -20,7 +20,7 @@ function currentLine(line){
   } else {
     var crntLine="The line is currently: "
     for (let i=0;i<line.length;i++){
-      var position=line.indexOf+1
+      var position=line.indexOf(name)+1
       crntLine+=`${position}. ${line[i]}, `
     }
   }
