@@ -22,5 +22,5 @@ function currentLine(line){
       line[i]=`${i+1}. ${line[i]}`
     }
   }
-  return crntLine
+  return "The line is currently: "+line.join()
 }
