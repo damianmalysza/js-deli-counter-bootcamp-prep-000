@@ -21,7 +21,7 @@ function currentLine(line){
     var crntLine="The line is currently: "
     for (let i=0;i<line.length;i++){
       position=line.indexOf+1
-      var crntLine+=`${position}. ${line[i]}, `
+      crntLine+=`${position}. ${line[i]}, `
     }
   }
   return crntLine
